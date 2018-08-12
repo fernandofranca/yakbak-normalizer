@@ -36,7 +36,6 @@ function startServer(domain) {
 function start(domain) {
   chokidar.watch(configs.watcherPath, configs.watcher)
     .on('add', (path) => {
-      console.log(`+ File ${path} was added`)
       normalizeTape(`./${path}`)
     })
     .on('change', () => {
