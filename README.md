@@ -1,9 +1,9 @@
 # yakbak-normalizer
 
 ## What
-A pratical Node.js Yakbak server. 
+A Node.js Yakbak/VCR server with convenient settings.
 
-It records, rewrites and decompress the generated tapes as human readable strings. 
+It records, rewrites and decompress the generated tapes as human readable strings.
 
 ## Why
 Human readable files are more convenient than encoded ones. 
