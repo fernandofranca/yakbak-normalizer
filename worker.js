@@ -12,7 +12,7 @@ function startServer(domain) {
   let _domain = domain || configs.domain
 
   const start = () => {
-    const middleware = yakbak(_domain, configs.tapesPath)
+    const middleware = yakbak(_domain, configs.yakbak)
 
     getNetworkIPAddress()
     .then((ipAddress) => {
