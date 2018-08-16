@@ -20,7 +20,7 @@ function startServer(domain) {
         .createServer(middleware)
         .listen(configs.serverPort)
         
-      console.log(`Started server on [ ${ipAddress}:${configs.serverPort} ] proxying requests to [ ${_domain} ]`)
+      console.log(`Started server on [ http://${ipAddress}:${configs.serverPort} ] proxying requests to [ ${_domain} ]`)
     })
 
   }
